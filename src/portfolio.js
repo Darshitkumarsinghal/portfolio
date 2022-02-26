@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Darshit ",
-  title: "Hi all," +"     "+"I'm Darshit Kumar Singhal",
+  title: "Hi all," + "     " + "I'm Darshit",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
@@ -42,9 +42,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end/ User Interfaces for your web applications"
     ),
 
-    emoji(
-      "⚡ Integration of third party services such as AWS "
-    )
+    emoji("⚡ Integration of third party services such as AWS ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -54,7 +52,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
-
     },
     {
       skillName: "html-5",
@@ -89,7 +86,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },{
+    },
+    {
       skillName: "GIT & GITHUB",
       fontAwesomeClassname: "fab fa-github"
     },
@@ -116,16 +114,14 @@ const educationInfo = {
       logo: require("./assets/images/Birla-Institute-of-Technology-Mesra.jpg"),
       subHeader: "Bachelor of Technology",
       duration: "2018 - 2022",
-      desc: "Persuing B.Tech in ECE",
-
+      desc: "Persuing B.Tech in ECE"
     },
     {
       schoolName: "Sarvodaya SR. SEC School,Rupbas(Bharatpur)",
-      logo : require('./assets/images/BSER-Logo.jpeg'),
+      logo: require("./assets/images/BSER-Logo.jpeg"),
       subHeader: "10+2(PCM)",
       duration: "2014 - 2017",
-      desc: "",
-
+      desc: ""
     }
   ]
 };
@@ -161,7 +157,8 @@ const workExperiences = {
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -172,14 +169,16 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -201,9 +200,10 @@ const bigProjects = {
     {
       image: require("./assets/images/favicon.ico"),
       projectName: "Messenger",
-      projectDesc: "Tech:- MongoDB,NodeJs,ExpressJs,ReactJS,Socket.io . \n" +
-          " Uses Google Authentication for logging in.\n" +
-          "Users can chat(1-1) with other users & watch live status of other users\n",
+      projectDesc:
+        "Tech:- MongoDB,NodeJs,ExpressJs,ReactJS,Socket.io . \n" +
+        " Uses Google Authentication for logging in.\n" +
+        "Users can chat(1-1) with other users & watch live status of other users\n",
       footerLink: [
         {
           name: "View Code",
@@ -215,10 +215,11 @@ const bigProjects = {
     {
       image: require("./assets/images/corona-tracker-social-image-1-1024x576.jpg"),
       projectName: "Covid-19 Tracker and vaccine finder",
-      projectDesc: "Tech:- ReactJs ,React Hooks,CSS , leaflet.js.\n" +
-          "User can search vaccine ability in india by PINCODE or District name.\n" +
-          "Track Covid 19 cases, Recover, Death Daily updated over worldwide.\n" +
-          "User can see on map & visualisation on Graph.",
+      projectDesc:
+        "Tech:- ReactJs ,React Hooks,CSS , leaflet.js.\n" +
+        "User can search vaccine ability in india by PINCODE or District name.\n" +
+        "Track Covid 19 cases, Recover, Death Daily updated over worldwide.\n" +
+        "User can see on map & visualisation on Graph.",
       footerLink: [
         {
           name: "Visit Code",
@@ -229,9 +230,10 @@ const bigProjects = {
     {
       image: require("./assets/images/blog.jpg"),
       projectName: "Blog webApp",
-      projectDesc: "Tech :- MongoDB,NodeJS,Express.js,ReactJS,Okta Authentication.\n" +
-          "User can CREATE , UPDATE, DELETE Blog.\n" +
-          "User can Comment on Other user's Blog  & Delete Comment also.\n",
+      projectDesc:
+        "Tech :- MongoDB,NodeJS,Express.js,ReactJS,Okta Authentication.\n" +
+        "User can CREATE , UPDATE, DELETE Blog.\n" +
+        "User can Comment on Other user's Blog  & Delete Comment also.\n",
       footerLink: [
         {
           name: "View Code",
@@ -242,16 +244,16 @@ const bigProjects = {
     {
       image: require("./assets/images/sorting.png"),
       projectName: "Sorting visualizer",
-      projectDesc: "Visualize sorting algorithms like Merge Sort, Quicksort,Bubble Sort and Insertion Sort.\n" +
-          "Simple interactive UI created with front-end technologies like React.js, JavaScript, HTML5, CSS3\n",
+      projectDesc:
+        "Visualize sorting algorithms like Merge Sort, Quicksort,Bubble Sort and Insertion Sort.\n" +
+        "Simple interactive UI created with front-end technologies like React.js, JavaScript, HTML5, CSS3\n",
       footerLink: [
         {
           name: "View Code",
           url: "https://github.com/Darshitkumarsinghal/sorting"
         }
       ]
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -268,24 +270,23 @@ const achievementSection = {
     {
       title: "Docker",
       subtitle:
-        "Docker Essentials: A Developer Introduction\n" +
-          "Issued by IBM\n",
+        "Docker Essentials: A Developer Introduction\n" + "Issued by IBM\n",
       image: require("./assets/images/Docker_Essentials_-_ISDN.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/badges/2cf9204d-55e2-4261-bd8f-65f7b9585cfd?source=linked_in_profile"
-        },
-
+          url:
+            "https://www.credly.com/badges/2cf9204d-55e2-4261-bd8f-65f7b9585cfd?source=linked_in_profile"
+        }
       ]
     },
     {
       title: "Java,Problem Solving,SQL,Python ",
       subtitle:
         "5* on Hackerrank.\n" +
-          "4* on SQL \n" +
-          "5* in Python \n" +
-          "3* in Problem solving \n",
+        "4* on SQL \n" +
+        "5* in Python \n" +
+        "3* in Problem solving \n",
       image: require("./assets/images/hackerrank-logo.jpg"),
       footerLink: [
         {
@@ -294,8 +295,6 @@ const achievementSection = {
         }
       ]
     }
-
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -309,7 +308,8 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url:
+        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
